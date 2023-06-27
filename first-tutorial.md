@@ -6,7 +6,7 @@ Explore with the robot!
 
 ## Step One
 
-Create a Tile map using the ``||tilemaps: tilemap||`` code to create a map.  Clock on the map icon.
+Create a Tile map using the ``||tiles:tilemap||`` code to create a map.  Clock on the map icon.
 
 ```python
 level1 = tiles.create_map(tilemap("""level1"""))
@@ -14,7 +14,7 @@ level1 = tiles.create_map(tilemap("""level1"""))
 
 ## Step Two
 
-Use the ``||tilemaps:set current tilemap to ||`` code to reveal the tilemap to the screen
+Use the ``||tiles:set current tilemap to ||`` code to reveal the tilemap to the screen
 
 ```python
 tiles.load_map(level1)
