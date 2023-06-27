@@ -9,7 +9,7 @@ Explore with the robot!
 Create a Tile map using the ``||tilemaps: tilemap||`` code to create a map.  Clock on the map icon.
 
 ```python
-level1 = tiles.create_map(tilemap("""level1"""))
+tiles.create_map(tilemap(""" """))
 ```
 
 ## Step Two
@@ -17,7 +17,7 @@ level1 = tiles.create_map(tilemap("""level1"""))
 Use the ``||tilemaps:set current tilemap to ||`` code to reveal the tilemap to the screen
 
 ```python
-tiles.load_map(level1)
+tiles.load_map(tiles.create_map(tilemap(""" """)))
 ```
 
 ## Step Three
