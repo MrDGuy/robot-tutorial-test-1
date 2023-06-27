@@ -1,0 +1,33 @@
+{
+    "name": "Robot Tutorial Test 1",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
+        "multiplayer": "*",
+        "Robot Extension": "github:mrdguy/robot-extension#435f5b4be32f59c0cab83bc8b07ac6268af915c5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "main.py",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.30",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "pyprj"
+}
